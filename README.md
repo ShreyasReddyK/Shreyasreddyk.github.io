@@ -1,2 +1,0 @@
-# Shreyasreddyk.github.io
-nice
