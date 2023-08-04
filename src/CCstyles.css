@@ -1,0 +1,86 @@
+html,
+
+
+body{
+    background: rgb(251,229,192);
+}
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+.icons{
+    scale: 1rem;
+}
+
+#game{
+    white-space: nowrap;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(1,auto);
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    display: grid;
+    background: aliceblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    place-items: center;
+    font-size: 2.4rem;
+    border: 2px solid black;
+
+}
+
+.box.scorebox{
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    background: rgb(251,229,192);
+    display: grid;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    place-items: center;
+    font-size: 2.4rem;
+    border: 2px solid black;
+}
+
+.keyboard {
+    display: flex;
+  justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 10px;
+  }
+  
+  .key {
+    background: aliceblue;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .bigkeys{
+    display: flex;
+  justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 100px;
+  }
+  .big{
+    background: aliceblue;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+  }
